@@ -12,7 +12,7 @@ class LlmCacheProxy < Formula
     libexec.install Dir["*"]
     (bin/"llm-cache-proxy").write <<~SH
       #!/bin/bash
-      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/cli.mjs" "$@"
+      exec "#{formula_opt_bin("node")}/node" "#{libexec}/cli.mjs" "$@"
     SH
   end
 
