@@ -1,8 +1,8 @@
 class LlmCacheProxy < Formula
   desc "Byte-exact local caching proxy for the Anthropic Messages API"
   homepage "https://github.com/mithudso/llm-cache-proxy"
-  url "https://github.com/mithudso/llm-cache-proxy/archive/refs/tags/v2.0.2.tar.gz"
-  sha256 "59fe6bb250ddcf5f37ddd7c8c4d3c89df0409c64048d2ef81a10402fd3669761"
+  url "https://github.com/mithudso/llm-cache-proxy/archive/refs/tags/v2.0.3.tar.gz"
+  sha256 "e0e0fe6995e5dbf46155bd193ac75aa81fd038dd4f6a4896776448290d5ab1e7"
   license "MIT"
 
   depends_on "node"
