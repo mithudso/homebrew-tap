@@ -5,6 +5,7 @@ Homebrew formulae for [@mithudso](https://github.com/mithudso) tools.
 ## Install
 
 ```bash
+brew install mithudso/tap/skills-explorer
 brew install mithudso/tap/github-explorer
 brew install mithudso/tap/llm-cache-proxy
 # or:
@@ -15,10 +16,11 @@ brew tap mithudso/tap && brew install llm-cache-proxy
 
 | Formula | Description |
 |---|---|
+| [`skills-explorer`](Formula/skills-explorer.rb) | Browse, edit, optimize and evaluate installed agent skills in a terminal workbench. [Setup and screenshots](https://llms-explorer.com/downloads/#skills-explorer) · [Source and releases](https://github.com/mithudso/homebrew-tap/releases/tag/skills-explorer-v0.10.0) · [npm](https://www.npmjs.com/package/skills-explorer). |
 | [`github-explorer`](Formula/github-explorer.rb) | GitHub terminal workbench with embedded Vim, repository files, status and Git/gh commands. See [the project](https://github.com/mithudso/github-explorer). |
 | [`llm-cache-proxy`](Formula/llm-cache-proxy.rb) | Local-only, zero-dependency byte-exact caching proxy for the Anthropic Messages API. See [the project](https://github.com/mithudso/llm-cache-proxy). |
 
-After install, set your key and start it:
+For LLM Cache Proxy, set your key and start it:
 
 ```bash
 printf 'ANTHROPIC_API_KEY_REAL=sk-ant-...\n' > .env
