@@ -1,0 +1,118 @@
+{
+  "queries": [
+    {
+      "package": {
+        "name": "bittty",
+        "ecosystem": "PyPI"
+      },
+      "version": "0.1.4"
+    },
+    {
+      "package": {
+        "name": "linkify-it-py",
+        "ecosystem": "PyPI"
+      },
+      "version": "2.2.0"
+    },
+    {
+      "package": {
+        "name": "markdown-it-py",
+        "ecosystem": "PyPI"
+      },
+      "version": "4.2.0"
+    },
+    {
+      "package": {
+        "name": "mdit-py-plugins",
+        "ecosystem": "PyPI"
+      },
+      "version": "0.6.1"
+    },
+    {
+      "package": {
+        "name": "mdurl",
+        "ecosystem": "PyPI"
+      },
+      "version": "0.1.2"
+    },
+    {
+      "package": {
+        "name": "platformdirs",
+        "ecosystem": "PyPI"
+      },
+      "version": "4.12.1"
+    },
+    {
+      "package": {
+        "name": "platformdirs",
+        "ecosystem": "PyPI"
+      },
+      "version": "4.12.2"
+    },
+    {
+      "package": {
+        "name": "pygments",
+        "ecosystem": "PyPI"
+      },
+      "version": "2.21.0"
+    },
+    {
+      "package": {
+        "name": "pyyaml",
+        "ecosystem": "PyPI"
+      },
+      "version": "6.0.3"
+    },
+    {
+      "package": {
+        "name": "rich",
+        "ecosystem": "PyPI"
+      },
+      "version": "15.0.0"
+    },
+    {
+      "package": {
+        "name": "textual",
+        "ecosystem": "PyPI"
+      },
+      "version": "8.2.8"
+    },
+    {
+      "package": {
+        "name": "textual-tty",
+        "ecosystem": "PyPI"
+      },
+      "version": "0.4.0"
+    },
+    {
+      "package": {
+        "name": "typing-extensions",
+        "ecosystem": "PyPI"
+      },
+      "version": "4.16.0"
+    },
+    {
+      "package": {
+        "name": "wcwidth",
+        "ecosystem": "PyPI"
+      },
+      "version": "0.9.1"
+    }
+  ],
+  "results": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
+}

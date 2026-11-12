@@ -1,0 +1,292 @@
+[
+  {
+    "path": ".editorconfig",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".env.example",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".gitattributes",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/CODEOWNERS",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/SECURITY.md",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/copilot-instructions.md",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/dependabot.yml",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".gitignore",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".mcp.json",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".vscode/extensions.json",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".vscode/launch.json",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".vscode/mcp.json",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": ".vscode/settings.json",
+    "purpose": "Repository workflow or editor configuration",
+    "layer": "config"
+  },
+  {
+    "path": "AGENTS.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "CLAUDE.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "Formula/github-explorer.rb",
+    "purpose": "Homebrew installation and smoke-test definition",
+    "layer": "config"
+  },
+  {
+    "path": "Formula/llm-cache-proxy.rb",
+    "purpose": "Homebrew installation and smoke-test definition",
+    "layer": "config"
+  },
+  {
+    "path": "Formula/skills-explorer.rb",
+    "purpose": "Homebrew installation and smoke-test definition",
+    "layer": "config"
+  },
+  {
+    "path": "GEMINI.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "README.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/COMPONENTS.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/DEVELOPMENT.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/INSTALLATION.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/MCP.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/SECURITY.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/TESTING.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/archive-verification-2026-11-12.json",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/caching-and-optimization.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/code-deep-optimizer-2026-11-12.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/codebase-overview.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/dependency-audit-2026-11-12.json",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/external-calls.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/high_signal_file_index.json",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/integrations-and-assumptions.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/known-issues.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/logging.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/onboarding.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/operations-registry.json",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/optimizer-coverage-2026-11-12.json",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/repo-bootstrap-audit-2026-11-12.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/requirements.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/runbooks/update-formula.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/tool-inventory.json",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "docs/wiki/index.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "llms.txt",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "memory.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "prompts.md",
+    "purpose": "Contributor reference and maintenance documentation",
+    "layer": "docs"
+  },
+  {
+    "path": "scripts/check-doc-indexes.py",
+    "purpose": "Offline repository maintenance command",
+    "layer": "tooling"
+  },
+  {
+    "path": "scripts/generate-doc-indexes.py",
+    "purpose": "Offline repository maintenance command",
+    "layer": "tooling"
+  },
+  {
+    "path": "tests/test_doc_indexes.py",
+    "purpose": "Behavioral tests for local maintenance tooling",
+    "layer": "test"
+  },
+  {
+    "path": "tests/test_index_generation.py",
+    "purpose": "Behavioral tests for local maintenance tooling",
+    "layer": "test"
+  }
+]

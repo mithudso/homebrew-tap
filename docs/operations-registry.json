@@ -1,0 +1,12 @@
+{
+  "operations": [],
+  "audit": {
+    "status": "not-applicable",
+    "reason": "The tap declares package sources; Homebrew owns fetching, logging, retries and install state. No tap runtime external-call API exists."
+  },
+  "status": {
+    "applicationRuntime": false,
+    "datastore": false,
+    "backgroundIndexing": false
+  }
+}

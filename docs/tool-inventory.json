@@ -1,0 +1,42 @@
+{
+  "kind": "static-maintenance-command-inventory",
+  "mcp_tools": [],
+  "commands": [
+    {
+      "name": "ruby-syntax",
+      "command": "for formula in Formula/*.rb; do ruby -c \"$formula\"; done",
+      "readOnly": true,
+      "description": "Local maintenance validation; Homebrew may update its own diagnostic caches."
+    },
+    {
+      "name": "doc-index-check",
+      "command": "python3 scripts/check-doc-indexes.py",
+      "readOnly": true,
+      "description": "Local maintenance validation; Homebrew may update its own diagnostic caches."
+    },
+    {
+      "name": "doc-index-drift",
+      "command": "python3 scripts/generate-doc-indexes.py --check",
+      "readOnly": true,
+      "description": "Local maintenance validation; Homebrew may update its own diagnostic caches."
+    },
+    {
+      "name": "checker-tests",
+      "command": "python3 -m unittest discover -s tests -v",
+      "readOnly": true,
+      "description": "Local maintenance validation; Homebrew may update its own diagnostic caches."
+    },
+    {
+      "name": "formula-style",
+      "command": "HOMEBREW_NO_AUTO_UPDATE=1 brew style --formula mithudso/tap/github-explorer mithudso/tap/llm-cache-proxy mithudso/tap/skills-explorer",
+      "readOnly": true,
+      "description": "Local maintenance validation; Homebrew may update its own diagnostic caches."
+    },
+    {
+      "name": "formula-loading",
+      "command": "HOMEBREW_NO_AUTO_UPDATE=1 brew readall --os=all --arch=all mithudso/tap",
+      "readOnly": true,
+      "description": "Local maintenance validation; Homebrew may update its own diagnostic caches."
+    }
+  ]
+}
