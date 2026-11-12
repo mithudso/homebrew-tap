@@ -1,0 +1,48 @@
+name: Tap checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Ruby syntax
+        run: for formula in Formula/*.rb; do ruby -c "$formula"; done
+      - name: Retrieval index paths
+        run: python3 scripts/check-doc-indexes.py
+      - name: Generated index drift
+        run: python3 scripts/generate-doc-indexes.py --check
+      - name: Checker boundary tests
+        run: python3 -m unittest discover -s tests -v
+  homebrew:
+    runs-on: macos-latest
+    env:
+      HOMEBREW_NO_AUTO_UPDATE: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Load and lint formulas without installation
+        shell: bash
+        run: |
+          set -euo pipefail
+          tap="$(brew --repository)/Library/Taps/mithudso/homebrew-maintenance-ci"
+          test ! -e "$tap" && test ! -L "$tap"
+          mkdir -p "$(dirname "$tap")"
+          ln -s "$GITHUB_WORKSPACE" "$tap"
+          trap 'rm "$tap"' EXIT
+          # Recent Homebrew versions require explicit trust before loading tap Ruby.
+          if brew help trust >/dev/null 2>&1; then
+            brew trust mithudso/maintenance-ci
+          fi
+          brew style --formula mithudso/maintenance-ci/github-explorer mithudso/maintenance-ci/llm-cache-proxy mithudso/maintenance-ci/skills-explorer
+          brew readall --os=all --arch=all mithudso/maintenance-ci

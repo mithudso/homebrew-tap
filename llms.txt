@@ -1,0 +1,13 @@
+# Personal Homebrew tap
+
+> Three pinned application formulae; no application runtime or credentials.
+
+- [Wiki](docs/wiki/index.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Development](docs/DEVELOPMENT.md)
+- [Testing](docs/TESTING.md)
+- [Security](docs/SECURITY.md)
+- [Complete file map](docs/codebase-overview.md)
+- [Machine path index](docs/high_signal_file_index.json)
+
+This static navigation contains no embeddings or private file bodies.
